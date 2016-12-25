@@ -10,8 +10,8 @@ project:
 git:
   default_branch: master
   remotes:
-    - 'bolt8@svn-5223.devcloud.hosting.acquia.com:bolt8.git'
-    - 'git@github.com:acquia/pipelines-examples.git'
+    - 'git@github.com:kieranacquia/docsteest.git'
+    - 'pipelinestutorial@svn-3844.devcloud.hosting.acquia.com:pipelinestutorial.git'
 drush:
   aliases:
     remote: '${project.machine_name}.test'
