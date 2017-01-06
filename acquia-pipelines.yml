@@ -1,10 +1,9 @@
 version: 1.0.0
 
-<<<<<<< HEAD
 variables:
   global:
     N3_KEY: '56a87bdc-64eb-4196-bdd9-2d5fa4c2906c'
-=======
+
 # Run the MySQL database service.
 services:
   - mysql
