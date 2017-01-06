@@ -55,3 +55,4 @@ events:
             - rm -rf $BUILD_DIR/*
             # Move all files, including hidden files, from build artifact into working directory.
             - mv $NEW_BUILD_DIR/* $BUILD_DIR/
+            
