@@ -8,7 +8,6 @@ variables:
 # Run the MySQL database service.
 services:
   - mysql
->>>>>>> d8b173a64e95f5da876c209b7decb52ae2742beb
 
 events:
   build:
