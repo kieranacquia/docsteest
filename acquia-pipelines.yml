@@ -1,8 +1,14 @@
 version: 1.0.0
 
+<<<<<<< HEAD
 variables:
   global:
     N3_KEY: '56a87bdc-64eb-4196-bdd9-2d5fa4c2906c'
+=======
+# Run the MySQL database service.
+services:
+  - mysql
+>>>>>>> d8b173a64e95f5da876c209b7decb52ae2742beb
 
 events:
   build:
@@ -13,7 +19,6 @@ events:
             script:
               - git config --global user.name "Acquia Cloud"
               - git config --global user.email "noreply@acquia.com"
-              - sudo /etc/init.d/mysql start
               - mysql -u root -proot -e "CREATE DATABASE IF NOT EXISTS drupal"
 
         # Install project level packages and set project level configuration.
